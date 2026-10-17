@@ -10,7 +10,7 @@ A modern, responsive personal portfolio website for **Benard Ndungu Mocha**, a s
 portfolio/
 ├── index.html               # Main portfolio file (all HTML, CSS, JS in one file)
 ├── image.jpg                # Your profile photo (place in the same folder)
-├── CURRICULUM VITAE.docx    # Your CV (linked for download)
+├── CURRICULUM VITAE.pdf    # Your CV (linked for download)
 └── README.md                # This file
 ```
  
@@ -20,7 +20,7 @@ portfolio/
  
 ### Option 1 — Open Directly in Browser
 Since this is a pure HTML/CSS/JS project with no build steps, you can simply:
-1. Place all files (`index.html`, `image.jpg`, `CURRICULUM VITAE.docx`) in the **same folder**
+1. Place all files (`index.html`, `image.jpg`, `CURRICULUM VITAE.pdf`) in the **same folder**
 2. Double-click `index.html` — it opens straight in your browser
  
 ### Option 2 — Run with a Local Server (Recommended)
@@ -55,7 +55,7 @@ Replace `image.jpg` in the project folder with your own photo.
 - If no image is found, the page automatically shows your initials **"BN"** as a fallback.
  
 ### 2. CV Download
-Replace `CURRICULUM VITAE.docx` with your latest CV file.
+Replace `CURRICULUM VITAE.pdf` with your latest CV file.
 - If you rename the file, update both download links in `index.html`:
 ```html
 <a href="YOUR_CV_FILENAME.docx" download="BenardNdungu_CV.docx" ...>
@@ -96,7 +96,7 @@ Change `--green` to any hex color to instantly retheme the entire site.
  
 ### GitHub Pages (Recommended)
 1. Create a GitHub repository named `yourusername.github.io`
-2. Upload `index.html`, `image.jpg`, and `CURRICULUM VITAE.docx` to the repo
+2. Upload `index.html`, `image.jpg`, and `CURRICULUM VITAE.pdf` to the repo
 3. Go to **Settings → Pages → Source → main branch**
 4. Your site will be live at `https://yourusername.github.io`
  
